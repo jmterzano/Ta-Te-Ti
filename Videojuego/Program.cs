@@ -9,7 +9,7 @@ namespace Videojuego
     class Program
     {
         //Creamos un arreglo bidimensional para el tablero del juego
-        static int[,] tablero = new int[3, 3];//3 filas - 3 columnas //se usa STATIC 
+        static int[,] tablero = new int[3, 3];
         //Creamos un arreglo para los simbolos del tablero(J1 y J2)
         static char[] simbolo = { ' ', 'O', 'X' };
 
